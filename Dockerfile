@@ -9,7 +9,7 @@ RUN opkg-install curl
 ENV JAVA_VERSION_MAJOR 7
 ENV JAVA_VERSION_MINOR 76
 ENV JAVA_VERSION_BUILD 13
-ENV JAVA_PACKAGE       server-jre
+ENV JAVA_PACKAGE       jdk
 
 # Download and unarchive Java
 RUN curl -jksSLH "Cookie: oraclelicense=accept-securebackup-cookie"\
